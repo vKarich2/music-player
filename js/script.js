@@ -115,12 +115,12 @@ function randomTrack(){
 
 function playRandom(){
 	isRandom = true;
-  randomIcon.classList.add('.randomActive');
+  randomIcon.classList.add('randomActive');
 }
 
 function pauseRandom(){
   isRandom = false;
-  randomIcon.classList.remove('.randomActive');
+  randomIcon.classList.remove('randomActive');
 }
 
 function repeatTrack(){
